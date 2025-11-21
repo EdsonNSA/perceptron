@@ -22,3 +22,12 @@ Luizinho   | In:[1 1 1] | Esperado:1 | Obtido:1
  -> OK
 
 Resultado: [-0.1  0.1  0. ]
+
+
+
+Provando com  os pesos finais:
+
+Joãozinho (0, 0): -0.1 + 0 + 0 = -0.1 (Negativo -> Reprovado)
+Huguinho (0, 1): -0.1 + 0 + (0 x 1) = -0.1 (Negativo -> Reprovado)
+Zezinho (1, 0): -0.1 + (0.1 x 1) + 0 = 0.0 (Zero ou mais -> Aprovado)
+Luizinho (1, 1): -0.1 + 0.1 + 0 = 0.0 (Zero ou mais -> Aprovado)
